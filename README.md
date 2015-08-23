@@ -1,4 +1,4 @@
-# Rastin Circle, A Persian font for redmine
+# Rastin Circle, A Persian theme for redmine
 A Customized Theme for Persian language for Redmine
 
 ## Installation
