@@ -140,7 +140,7 @@ h2 {
 /* TOP-MENU */
 /**********************************************************/
 #top-menu {
-	background: #D32F2F;
+	background: #B71C1C;
 	color: #fff !important;
 	height:1.8em;
 	font-size: 0.8em;
@@ -831,6 +831,6 @@ div.details {padding: 20px !important;}
 /*********************************************************/
 #admin-menu ul {margin: 0;  padding: 0;direction:rtl}
 #admin-menu li {margin: 0;  padding: 0 0 6px 0; list-style-type:none;}
-#admin-menu a { background-position: 98% 0%; background-repeat: no-repeat;padding-right: 28px;padding-top: 2px; padding-bottom: 3px;}
+#admin-menu a { background-position: 98% 0%!important; background-repeat: no-repeat;padding-right: 28px; padding-left:0; padding-top: 2px; padding-bottom: 3px;}
 #admin-menu a.projects { background-image: url(../images/projects.png) ; }
 #admin-menu a.selected { padding-right:20px!important; background-position:2px 40%;}
