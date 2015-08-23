@@ -140,7 +140,7 @@ h2 {
 /* TOP-MENU */
 /**********************************************************/
 #top-menu {
-	background: #B71C1C;
+	background: #3d454c;
 	color: #fff !important;
 	height:1.8em;
 	font-size: 0.8em;
@@ -165,7 +165,8 @@ h2 {
 	left: 0px;
 	width: 100%;
 	height: 51px;
-	background-color: #3d454c;
+	right:0;
+	background-color: #B71C1C;
 	font-weight: 500;
 	overflow: hidden;
 }
@@ -180,7 +181,7 @@ h2 {
 }
 
 #main-menu li > a {
-	color: #9da2a6;
+	color: #ccc;
 }
 
 
@@ -195,8 +196,8 @@ h2 {
   top: 16px;
   text-indent: 66em;
   overflow: hidden;
-	cursor: pointer;
-	width: 24px;
+  cursor: pointer;
+  width: 24px;
   height: 16px;
   background: url(../images/menu_button.png) no-repeat;
   background-size: 16px 16px; /* for retina displays */
