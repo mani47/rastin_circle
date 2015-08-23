@@ -196,8 +196,8 @@ h2 {
   top: 16px;
   text-indent: 66em;
   overflow: hidden;
-  cursor: pointer;
-  width: 24px;
+	cursor: pointer;
+	width: 24px;
   height: 16px;
   background: url(../images/menu_button.png) no-repeat;
   background-size: 16px 16px; /* for retina displays */
