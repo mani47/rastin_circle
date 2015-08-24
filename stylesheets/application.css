@@ -1,10 +1,22 @@
 @import url(../../../stylesheets/application.css);
 
 /* Circle Theme version 1.0.2, Copyright (C) 2014 Kirill Bezrukov www.redminecrm.com */
-/* Customized by Mani Malekmohammadi and Hossein Rabizadeh at rastinware.ir */
+/* Customized by Mani Malekmohammadi and Hossein Rabizadeh at rastinware.ir for RTL support */
+
+
+/***********************************************************/
+/* Persian Fonts */
+/***********************************************************/
+
+@font-face{
+    font-family:'yekan';
+    font-style:normal;font-weight:normal;
+    src:url("fonts/yekan.eot");
+    src:url("fonts/yekan.eot?#iefix") format("embedded-opentype"),url("fonts/yekan.woff") format("woff"),url("fonts/yekan.ttf") format("truetype"),url("fonts/yekan.svg#WebYekan") format("svg");
+}
 
 *{
-    font-family:BYekan,'BYekan',tahoma !important;
+    font-family:'yekan',tahoma !important;
     font-size:14px;
 }
 
@@ -14,14 +26,6 @@
 
 #header > h1 {
 	background: url("") no-repeat 5px 5px;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	#header > h1 {
-		background-image: url(../images/logo2x.png);
-		background-size: 38px 40px;
-	}
 }
 
 /**********************************************************/
@@ -165,7 +169,7 @@ h2 {
 	left: 0px;
 	width: 100%;
 	height: 51px;
-	right:0;
+	right:0!important;
 	background-color: #B71C1C;
 	font-weight: 500;
 	overflow: hidden;
